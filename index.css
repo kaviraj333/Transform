@@ -1,0 +1,35 @@
+.a{
+    width: 100px;
+    height: 100px;
+     border: 1px solid gray;
+     background-color: aqua;
+     transform: translateY(100px);
+  }
+  .b{
+    width: 100px;
+    height: 100px;
+     border: 1px solid gray;
+     background-color: aqua;
+     margin-top: 150px;
+  }
+  .a:hover{
+    transform:translateZ(100px);
+   background-color: brown;
+   }
+   .b:hover{
+    transform: translate3d(100px, 100px, 100px);
+    background-color: brown                 ;
+}
+.c{
+    width: 100px;
+    height: 100px;
+     border: 1px solid gray;
+     background-color: aqua;
+     margin-top: 150px;
+     margin-left: 250px;
+  }
+
+  .c:hover {
+    transform: matrix(2, 0.6, 4, 6, 3, 1);
+    background-color: brown;
+}
